@@ -1,5 +1,5 @@
 class Account:
-    def __init__(self, id: int, name: str, balance:int = 0):
+    def __init__(self, id: int, name: str, balance: int = 0):
         self.id = id
         self.name = name
         self.balance = balance
