@@ -1,7 +1,7 @@
 from typing import List, Union
 
-from project.animal import Animal
-from project.worker import Worker
+from project import Animal
+from project import Worker
 
 
 class Zoo:

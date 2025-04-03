@@ -1,6 +1,6 @@
-from project.drink import Drink
-from project.food import Food
-from project.product_repository import ProductRepository
+from project import Drink
+from project import Food
+from project import ProductRepository
 
 food = Food("apple")
 drink = Drink("water")

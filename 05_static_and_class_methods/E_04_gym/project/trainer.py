@@ -1,4 +1,4 @@
-from project.id_mixin import IDMixin
+from project import IDMixin
 
 
 class Trainer(IDMixin):

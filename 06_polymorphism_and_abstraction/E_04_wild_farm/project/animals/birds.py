@@ -1,7 +1,7 @@
 from typing import List, Type
 
-from project.animals.animal import Bird
-from project.food import Meat, Food, Vegetable, Fruit, Seed
+from project import Bird
+from project import Meat, Food, Vegetable, Fruit, Seed
 
 
 class Owl(Bird):

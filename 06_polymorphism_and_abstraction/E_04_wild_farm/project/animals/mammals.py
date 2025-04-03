@@ -1,7 +1,7 @@
 from typing import List, Type
 
-from project.animals.animal import Mammal
-from project.food import Food, Meat, Vegetable, Fruit
+from project import Mammal
+from project import Food, Meat, Vegetable, Fruit
 
 
 class Mouse(Mammal):

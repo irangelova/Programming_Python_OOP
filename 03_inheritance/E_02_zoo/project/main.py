@@ -1,4 +1,4 @@
-from project.lizard import Lizard
+from project import Lizard
 from project.mammal import Mammal
 
 mammal = Mammal("Stella")

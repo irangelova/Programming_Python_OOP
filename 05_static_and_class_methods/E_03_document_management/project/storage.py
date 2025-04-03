@@ -1,8 +1,8 @@
 from typing import List, Union
 
-from project.category import Category
-from project.topic import Topic
-from project.document import Document
+from project import Category
+from project import Topic
+from project import Document
 
 
 class Storage:

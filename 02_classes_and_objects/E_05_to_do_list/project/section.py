@@ -1,6 +1,6 @@
 from typing import List
 
-from project.task import Task
+from project import Task
 
 
 class Section:

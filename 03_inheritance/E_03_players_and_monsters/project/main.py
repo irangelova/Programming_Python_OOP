@@ -1,5 +1,5 @@
-from project.elf import Elf
-from project.hero import Hero
+from project import Elf
+from project import Hero
 
 hero = Hero("H", 4)
 print(hero.username)

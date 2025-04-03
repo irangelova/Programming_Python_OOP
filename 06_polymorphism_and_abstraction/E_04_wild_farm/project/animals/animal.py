@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Type
 
-from project.food import Food
+from project import Food
 
 
 class Animal(ABC):
