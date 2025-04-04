@@ -63,7 +63,7 @@ class TestStudent(TestCase):
 
     def test_add_notes_to_not_existing_course_raises_ex(self):
         with self.assertRaises(Exception) as ex:
-            self.test_student2.add_notes("Python", ["n1", "n2"])
+            self.test_student2.add_notes("Python", "n1")
         self.assertEqual("Cannot add notes. Course not found.", str(ex.exception))
 
     def test_leave_existing_course(self):
